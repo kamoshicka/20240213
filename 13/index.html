@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>1. var、let、constの仕様について</h1> 
+   <h2>var</h2>
+   <p>同じスコープ内でvarを使って変数を再宣言してもエラーにならず、再代入も可能。</p>
+
+   <h2>let</h2>
+   <p>同じスコープ内でletを使って変数を再宣言することはできず、再代入は可能。</p>
+
+   <h3>const</h3>
+   <p>let同様、同じスコープ内でconstを使って変数を再宣言することはできません。<br>
+    constで宣言された変数は再代入が不可能。つまり、一度値を割り当てると、その変数はその値を保持し続けます。</p>
+
+    <h4>letとconstはより厳格なスコープ制御や安全なコーディングが可能なため、基本的にはvarの使用を避けconstとletを使用することが推奨される。</h4>
+</body>
+</html>
